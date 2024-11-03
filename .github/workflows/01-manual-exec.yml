@@ -1,7 +1,7 @@
 #CI de Nível 01 - Disparo manual a partir de 1 clique 
 
 #nome que vai aparecer nas opções de pipe
-name:'Execução Manual'
+name: 'Execução Manual'
 
 #triggers ou gatilhos de execução
 #gatilho de execução manual = workflow_dispatch
@@ -41,7 +41,7 @@ jobs:
 
       - name: Testes E2E (end-to-end)
         run: yarn run e2e
-           
+
 
 
 
